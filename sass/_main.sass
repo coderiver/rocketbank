@@ -1,2 +1,251 @@
 // Normally mainpage styles
- 
+.header
+	margin: 20px 
+	border-radius: 14px
+	background: url(../img/header.jpg) no-repeat 100% 0
+	height: 667px  
+	position: relative
+	min-width: 1000px 
+	h1 a
+		+hidetext
+		+s(logo)
+		position: absolute
+		left: 87px 
+		top: 120px 
+	h2
+		position: absolute
+		+lite
+		font-size: 48px 
+		font-weight: normal
+		top: 233px 
+		left: 133px 
+		line-height: 1.2 
+.out
+	width: 1060px 
+	margin: 0 auto 
+// popolnit
+.popolnit
+	margin-top: 177px 
+	+clr
+	margin-bottom: 110px 
+	.popolnit__pic
+		float: right
+	.popolnit__text
+		width: 582px 
+		margin-right: 30px 
+		padding-top: 55px 
+		line-height: 1.5 
+		p
+			margin-bottom: 26px
+		h3
+			+lite
+			font-size: 44px 
+			color: #2B2B2B
+			line-height: 1.2  
+			font-weight: normal
+			margin-bottom: 34px 
+.perevod
+	margin-bottom: 225px 
+	h2
+		font-size: 44px 
+		color: #282828 
+		font-weight: normal
+		+lite
+		text-align: center
+		margin-bottom: 25px 
+	.perevod__sub
+		font-size: 22px 
+		+reg
+		color: #555555
+		text-align: center 
+		margin-bottom: 70px 
+	.perevod__pics
+		text-align: center
+		margin-bottom: 106px 
+		position: relative
+		div
+			position: absolute
+			bottom: -55px 
+			font-size: 22px 
+			+reg
+			color: #555555
+			font-weight: normal
+			width: 274px  
+			text-align: center
+			&.perevod__label1
+				left: 0 + 37px
+			&.perevod__label2
+				left: 364px + 37px
+			&.perevod__label3
+				left: 717px + 37px
+	.perevod__bottom
+		font-size: 28px 
+		+lite
+		color: #000000
+		text-align: center
+		line-height: 1.2
+		margin-top: 44px   
+	.perevod__left
+		float: left
+		width: 640px 
+		.perevod__leftpic
+			float: left
+			margin-right: 25px 
+		p
+			padding-top: 19px 
+			line-height: 1.5 
+	.perevod__right
+		float: right
+		width: 190px
+		padding-top: 19px  
+		margin-right: 60px 
+		line-height: 1.5 
+.clr
+	clear: both
+.mili
+	+clr
+	h3
+		font-size: 44px 
+		+lite
+		font-weight: normal
+		color: #282828
+		margin-bottom: 30px  
+	.mili__pic
+		float: right
+		margin-left: 30px 
+		margin-right: 100px 
+	.mili__text
+		width: 340px 
+		line-height: 1.5 
+.card2card
+	+clr
+	margin-bottom: 240px 
+	.card2card__pic
+		float: left
+		margin-right: 50px 
+	.card2card__content
+		overflow: hidden
+		h3
+			font-size: 30px 
+			font-weight: normal
+			color: #2B2B2B
+			margin-bottom: 34px  
+		p
+			margin-bottom: 26px
+			line-height: 1.5 
+// price
+.price
+	margin-top: 135px 
+	h2
+		font-size: 44px 
+		font-weight: normal
+		text-align: center
+		+lite
+		color: #282828
+		margin-bottom: 35px  
+	thead
+		th
+			text-align: center
+			padding-bottom: 17px 
+			h3
+				color: #474F55
+				font-weight: normal
+				font-size: 24px  
+				opacity: .9
+				margin-bottom: 3px 
+			.price__amount
+				display: inline-block
+				font-size: 26px 
+				color: #474E55
+				margin-right: 10px 
+				a
+					color: #6A83A8 
+			.price__period
+				display: inline-block
+				font-size: 18px 
+				color: #474E55 
+				opacity: .7 
+	tbody
+		td,th
+			border-top: 1px solid #E6E6E6 
+		th
+			width: 480px 
+			text-align: right
+			padding-right: 50px 
+			font-size: 16px 
+			font-weight: normal
+			color: #363636
+			padding: 12px 0
+		td
+			text-align: center
+			font-size: 16px 
+			color: #52565D
+			a
+				color: #6A83A8 
+	tfoot
+		td,th
+			border-top: 1px solid #E6E6E6 
+			text-align: center
+			padding-top: 15px 
+		.price__buy
+			display: inline-block
+			margin-bottom: 10px 
+			border-radius: 4px
+			background-color: #0a9907
+			+box-shadow(inset 0 -3px 0 rgba(0,0,0,.16))
+			+med
+			text-decoration: none
+			color: #fff
+			font-size: 20
+			color: #fff
+			padding: 10px 20px     
+			cursor: pointer
+		.price__more
+			font-size: 14px 
+.avia
+	overflow: hidden
+	text-align: center
+	margin-bottom: 45px 
+	margin-top: 60px 
+	.avia__text
+		display: inline-block
+		color: #303030
+		font-size: 16px  
+		width: 193px 
+		vertical-align: middle
+		margin-right: 30px 
+	.avia__logos
+		vertical-align: middle
+		display: inline-block
+.nocredit
+	width: 650px 
+	margin: 0 auto
+	font-size: 18px 
+	color: #353535 
+	.nocredit__pic
+		float: left
+		margin-right: 10px 
+	.nocredit__text
+		padding-top: 20px 
+		overflow: hidden
+	h3
+		font-size: 30px 
+		color: #353535
+		+lite 
+		margin-bottom: 10px 
+		font-weight: normal
+.cardavailable
+	text-align: center
+	font-size: 20px 
+	color: #7E868E 
+	line-height: 1.2
+	margin-top: 40px 
+	+reg
+	a
+		color: #8399BB 
+.footer
+	text-align: center
+	padding: 30px 0
+	color: #282828
+	+lite
+	opacity: .7   

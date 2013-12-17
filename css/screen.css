@@ -18,6 +18,87 @@ ul, ol { list-style-type: none; }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) { * { -webkit-text-size-adjust: none; } }
 table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 
+@font-face { font-family: reg; src: url("fonts/pfagorasanspro-light-webfont.eot"); src: url("fonts/pfagorasanspro-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/pfagorasanspro-light-webfont.woff") format("woff"), url("fonts/pfagorasanspro-light-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: med; src: url("fonts/pfagorasanspro-medium-webfont.eot"); src: url("fonts/pfagorasanspro-medium-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/pfagorasanspro-medium-webfont.woff") format("woff"), url("fonts/pfagorasanspro-medium-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: lite; src: url("fonts/pfagorasanspro-reg-webfont.eot"); src: url("fonts/pfagorasanspro-reg-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/pfagorasanspro-reg-webfont.woff") format("woff"), url("fonts/pfagorasanspro-reg-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+
+body { font-size: 16px; font-family: "reg", arial, sans-serif; line-height: 1.4; }
+
+a { color: #8399bb; }
+
 .l { width: 100%; display: inline-block; }
 .l .l-col1 { float: left; width: 20%; }
 .l .l-col2 { float: right; width: 70%; }
+
+.header { margin: 20px; border-radius: 14px; background: url(../img/header.jpg) no-repeat 100% 0; height: 667px; position: relative; min-width: 1000px; }
+.header h1 a { font: 0/0 a; text-shadow: none; color: transparent; background: url('../img/icons-sb70a8cf000.png') 0 0 no-repeat; width: 164px; height: 41px; position: absolute; left: 87px; top: 120px; }
+.header h2 { position: absolute; font-family: "lite", arial, sans-serif; font-size: 48px; font-weight: normal; top: 233px; left: 133px; line-height: 1.2; }
+
+.out { width: 1060px; margin: 0 auto; }
+
+.popolnit { margin-top: 177px; *zoom: 1; margin-bottom: 110px; }
+.popolnit:after { content: " "; display: table; clear: both; }
+.popolnit .popolnit__pic { float: right; }
+.popolnit .popolnit__text { width: 582px; margin-right: 30px; padding-top: 55px; line-height: 1.5; }
+.popolnit .popolnit__text p { margin-bottom: 26px; }
+.popolnit .popolnit__text h3 { font-family: "lite", arial, sans-serif; font-size: 44px; color: #2b2b2b; line-height: 1.2; font-weight: normal; margin-bottom: 34px; }
+
+.perevod { margin-bottom: 225px; }
+.perevod h2 { font-size: 44px; color: #282828; font-weight: normal; font-family: "lite", arial, sans-serif; text-align: center; margin-bottom: 25px; }
+.perevod .perevod__sub { font-size: 22px; font-family: "reg", arial, sans-serif; color: #555555; text-align: center; margin-bottom: 70px; }
+.perevod .perevod__pics { text-align: center; margin-bottom: 106px; position: relative; }
+.perevod .perevod__pics div { position: absolute; bottom: -55px; font-size: 22px; font-family: "reg", arial, sans-serif; color: #555555; font-weight: normal; width: 274px; text-align: center; }
+.perevod .perevod__pics div.perevod__label1 { left: 37px; }
+.perevod .perevod__pics div.perevod__label2 { left: 401px; }
+.perevod .perevod__pics div.perevod__label3 { left: 754px; }
+.perevod .perevod__bottom { font-size: 28px; font-family: "lite", arial, sans-serif; color: black; text-align: center; line-height: 1.2; margin-top: 44px; }
+.perevod .perevod__left { float: left; width: 640px; }
+.perevod .perevod__left .perevod__leftpic { float: left; margin-right: 25px; }
+.perevod .perevod__left p { padding-top: 19px; line-height: 1.5; }
+.perevod .perevod__right { float: right; width: 190px; padding-top: 19px; margin-right: 60px; line-height: 1.5; }
+
+.clr { clear: both; }
+
+.mili { *zoom: 1; }
+.mili:after { content: " "; display: table; clear: both; }
+.mili h3 { font-size: 44px; font-family: "lite", arial, sans-serif; font-weight: normal; color: #282828; margin-bottom: 30px; }
+.mili .mili__pic { float: right; margin-left: 30px; margin-right: 100px; }
+.mili .mili__text { width: 340px; line-height: 1.5; }
+
+.card2card { *zoom: 1; margin-bottom: 240px; }
+.card2card:after { content: " "; display: table; clear: both; }
+.card2card .card2card__pic { float: left; margin-right: 50px; }
+.card2card .card2card__content { overflow: hidden; }
+.card2card .card2card__content h3 { font-size: 30px; font-weight: normal; color: #2b2b2b; margin-bottom: 34px; }
+.card2card .card2card__content p { margin-bottom: 26px; line-height: 1.5; }
+
+.price { margin-top: 135px; }
+.price h2 { font-size: 44px; font-weight: normal; text-align: center; font-family: "lite", arial, sans-serif; color: #282828; margin-bottom: 35px; }
+.price thead th { text-align: center; padding-bottom: 17px; }
+.price thead th h3 { color: #474f55; font-weight: normal; font-size: 24px; opacity: 0.9; margin-bottom: 3px; }
+.price thead th .price__amount { display: inline-block; font-size: 26px; color: #474e55; margin-right: 10px; }
+.price thead th .price__amount a { color: #6a83a8; }
+.price thead th .price__period { display: inline-block; font-size: 18px; color: #474e55; opacity: 0.7; }
+.price tbody td, .price tbody th { border-top: 1px solid #e6e6e6; }
+.price tbody th { width: 480px; text-align: right; padding-right: 50px; font-size: 16px; font-weight: normal; color: #363636; padding: 12px 0; }
+.price tbody td { text-align: center; font-size: 16px; color: #52565d; }
+.price tbody td a { color: #6a83a8; }
+.price tfoot td, .price tfoot th { border-top: 1px solid #e6e6e6; text-align: center; padding-top: 15px; }
+.price tfoot .price__buy { display: inline-block; margin-bottom: 10px; border-radius: 4px; background-color: #0a9907; -webkit-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.16); -moz-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.16); box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.16); font-family: "med", arial, sans-serif; text-decoration: none; color: white; font-size: 20; color: white; padding: 10px 20px; cursor: pointer; }
+.price tfoot .price__more { font-size: 14px; }
+
+.avia { overflow: hidden; text-align: center; margin-bottom: 45px; margin-top: 60px; }
+.avia .avia__text { display: inline-block; color: #303030; font-size: 16px; width: 193px; vertical-align: middle; margin-right: 30px; }
+.avia .avia__logos { vertical-align: middle; display: inline-block; }
+
+.nocredit { width: 650px; margin: 0 auto; font-size: 18px; color: #353535; }
+.nocredit .nocredit__pic { float: left; margin-right: 10px; }
+.nocredit .nocredit__text { padding-top: 20px; overflow: hidden; }
+.nocredit h3 { font-size: 30px; color: #353535; font-family: "lite", arial, sans-serif; margin-bottom: 10px; font-weight: normal; }
+
+.cardavailable { text-align: center; font-size: 20px; color: #7e868e; line-height: 1.2; margin-top: 40px; font-family: "reg", arial, sans-serif; }
+.cardavailable a { color: #8399bb; }
+
+.footer { text-align: center; padding: 30px 0; color: #282828; font-family: "lite", arial, sans-serif; opacity: 0.7; }
