@@ -102,8 +102,18 @@
 		line-height: 1.5 
 .clr
 	clear: both
+.out__wrap
+	overflow: hidden
 .mili
+	position: relative
 	+clr
+	.mili__picbg
+		width: 557px 
+		height: 418px 
+		position: absolute
+		bottom: 0
+		left: 340px 
+		background: url(../img/blogos.png) no-repeat 0 0 
 	h3
 		font-size: 44px 
 		+lite
@@ -114,6 +124,12 @@
 		float: right
 		margin-left: 30px 
 		margin-right: 100px 
+		position: relative
+		border-bottom: 1px solid #C4C4C4 
+		img
+			position: relative
+			z-index: 20 
+			display: block
 	.mili__text
 		width: 340px 
 		line-height: 1.5 
@@ -222,6 +238,7 @@
 	margin: 0 auto
 	font-size: 18px 
 	color: #353535 
+	margin-bottom: 200px 
 	.nocredit__pic
 		float: left
 		margin-right: 10px 

@@ -61,10 +61,14 @@ a { color: #8399bb; }
 
 .clr { clear: both; }
 
-.mili { *zoom: 1; }
+.out__wrap { overflow: hidden; }
+
+.mili { position: relative; *zoom: 1; }
 .mili:after { content: " "; display: table; clear: both; }
+.mili .mili__picbg { width: 557px; height: 418px; position: absolute; bottom: 0; left: 340px; background: url(../img/blogos.png) no-repeat 0 0; }
 .mili h3 { font-size: 44px; font-family: "lite", arial, sans-serif; font-weight: normal; color: #282828; margin-bottom: 30px; }
-.mili .mili__pic { float: right; margin-left: 30px; margin-right: 100px; }
+.mili .mili__pic { float: right; margin-left: 30px; margin-right: 100px; position: relative; border-bottom: 1px solid #c4c4c4; }
+.mili .mili__pic img { position: relative; z-index: 20; display: block; }
 .mili .mili__text { width: 340px; line-height: 1.5; }
 
 .card2card { *zoom: 1; margin-bottom: 240px; }
@@ -93,7 +97,7 @@ a { color: #8399bb; }
 .avia .avia__text { display: inline-block; color: #303030; font-size: 16px; width: 193px; vertical-align: middle; margin-right: 30px; }
 .avia .avia__logos { vertical-align: middle; display: inline-block; }
 
-.nocredit { width: 650px; margin: 0 auto; font-size: 18px; color: #353535; }
+.nocredit { width: 650px; margin: 0 auto; font-size: 18px; color: #353535; margin-bottom: 200px; }
 .nocredit .nocredit__pic { float: left; margin-right: 10px; }
 .nocredit .nocredit__text { padding-top: 20px; overflow: hidden; }
 .nocredit h3 { font-size: 30px; color: #353535; font-family: "lite", arial, sans-serif; margin-bottom: 10px; font-weight: normal; }
